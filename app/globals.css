@@ -19,8 +19,32 @@
 *{
   box-sizing: border-box;
 }
+
+:root{
+  --PaynerColor:#5050ff;
+  --Black:#000;
+  --SacendColor:#1B1B1B;
+  --PaynerColorLaght:#5050ff6a;
+}
+.PaynerColorLaght{
+  background: var(--PaynerColorLaght);
+}
+
+.text_PaynerColor{
+  color: var(--PaynerColor);
+}
+
+.PaynerColor{
+  background: var(--PaynerColor);
+}
+.SacendColor{
+  background: var(--SacendColor);
+}
+
+
 body {
-  color: rgb(var(--foreground-rgb));
+  color: rgb(var(--Black));
+  color:#eee;
   font-family: 'Cairo', sans-serif;
 }
 .home_header{
@@ -32,8 +56,23 @@ body {
   left:  calc(50% - 96px );
 }
 ::selection{
-  background:  #06b6d4;
+  background:  var(--PaynerColor);
 }
 ::-webkit-scrollbar{
   background: none;
+}
+.Mune{
+  height: calc(100vh - 56px);
+  min-height: 400px;
+}
+.Mune .btn_list{
+  border-radius: 0px 10px 10px 0px;
+
+}
+.H_logo{
+  height: calc(100vh - 56px);
+  min-height: 400px;
+}
+.inp{
+  opacity: 0;
 }

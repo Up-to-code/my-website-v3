@@ -25,7 +25,7 @@ function Send_emil() {
         id=""
         className="outline-none bg-neutral-950 py-1 px-2 w-[300px] mt-5 h-12 "
       ></textarea>
-      <button className="bg-cyan-600 text-zinc-50 py-1 px-2 w-[300px] mt-2">
+      <button className="PaynerColor text-zinc-50 py-1 px-2 w-[300px] mt-2">
         Send
       </button>
     </div>

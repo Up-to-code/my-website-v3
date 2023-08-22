@@ -3,7 +3,7 @@ function Call_me() {
     <div>
       <p className="text-lg font-bold mt-6">
         Call_me
-        <span className=" text-cyan-500  text-3xl"> .</span>
+        <span className=" text_PaynerColor  text-3xl"> .</span>
       </p>
       <a href="https://github.com/ensite-code">github</a>
       <br />

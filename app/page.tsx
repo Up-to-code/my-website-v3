@@ -12,23 +12,23 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <Home_haeder/>
-      <Form_bt/>
+      <Home_haeder />
+      <Form_bt />
       <Contaner>
-      <Boxes/>
-      <Boxes/>
-      <Boxes/>
-      <Boxes/>
-      <Boxes/>
-      <Boxes/>
-      <Boxes/>
-      <Boxes/>
-      <Boxes/>
+        <Boxes />
+        <Boxes />
+        <Boxes />
+        <Boxes />
+        <Boxes />
+        <Boxes />
+        <Boxes />
+        <Boxes />
+        <Boxes />
       </Contaner>
-      <My_skills/>
-      <Abuot_me/>
-      <Line_news/>
-      <Footer/>
+      <My_skills />
+      <Abuot_me />
+      <Line_news />
+      <Footer />
     </>
   );
 }

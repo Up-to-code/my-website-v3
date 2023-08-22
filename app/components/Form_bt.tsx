@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function Form_bt() {
   let darkBtn = " py-1 px-3 font-bold rounded border-b-zinc-900 ml-3";
-  let LaghtBtn = " py-1 px-3 font-bold rounded bg-cyan-600 ml-3  ";
+  let LaghtBtn = " py-1 px-3 font-bold rounded PaynerColor ml-3  ";
 
   const [Btn1, setBtn1] = useState(LaghtBtn);
   const [Btn2, setBtn2] = useState(darkBtn);
@@ -13,7 +13,6 @@ function Form_bt() {
     setBtn1(LaghtBtn);
     setBtn2(darkBtn);
     setBtn3(darkBtn);
-    console.log("first");
   };
   const HadelBtn2 = () => {
     setBtn1(darkBtn);

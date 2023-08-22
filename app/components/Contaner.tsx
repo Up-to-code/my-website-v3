@@ -2,7 +2,7 @@
 
 function Contaner(props: any) {
   return (
-    <div className="m-auto max-w-[800px]  grid grid-cols-2 gap-4  items-center">{props.children}</div>
+    <div className="sm:grid-cols-1 lg:grid-cols-2  w-[90%] m-auto mt-6 grid ">{props.children}</div>
   )
 }
 
