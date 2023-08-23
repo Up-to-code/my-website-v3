@@ -7,7 +7,7 @@ import Link from "next/dist/client/link";
 type ThePropos = {
   URL_Phot: null | string;
   Name: null | string | undefined;
-  Login: object;
+  Login: any;
   Bun: string;
 };
 function Navbar(props: ThePropos) {
