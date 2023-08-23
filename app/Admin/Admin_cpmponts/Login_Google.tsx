@@ -2,7 +2,7 @@
 
 
 type Allprops = {
-  Login: object;
+  Login: any;
   Bun: string;
 };
 function Login_Google(props: Allprops) {
